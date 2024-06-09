@@ -1,0 +1,168 @@
+/* index */
+nav a{
+    color: white;
+    text-decoration: none;
+}
+body{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   animation: alternate;
+   font: medium;
+   margin: 0;
+   padding: 0;
+}
+header{
+background-color:black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+   gap: 10px;
+
+}
+
+nav ul{
+    list-style-type: none ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+}
+nav li{
+    margin:5px 5px;
+}
+
+.hero{
+    background-image: url(./assets/gif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    color:white;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    padding: 20px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+/* contact */
+.contact{
+    /* padding: 40,0px; */
+    background-image: url(./assets/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-repeat: no-repeat;
+    transition: transparent;
+    justify-content: center;
+    
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-bottom: 270px;
+    
+
+}
+form{
+    max-width:600px ;
+    margin: 0 auto;
+    padding:50px ;
+    transition: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(0 0 5);
+    color: aliceblue;
+
+    
+}
+.form-group{
+    margin-bottom: 20px;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: small;
+
+}
+input textarea{
+    width: 50%;
+    padding: 10px;
+    font-size: small;
+    border-radius: 5px;
+    border: 1px solid;
+}
+/* featured */
+.tea{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background-image: url(./assets/peakpx\ \(2\).jpg);
+    background-repeat: round;
+    transition: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    
+}
+.tree{
+    text-align: center;
+    margin: 70px;
+    /* padding: 80px; */
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    
+
+}
+.tree img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    /* margin-bottom: 150px; */
+}
+.tree {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+/* registartion */
+.coil{
+    padding: 40px 0;
+    background-image: url(./assets/download.jpeg);
+    background-repeat: round;
+    transition: transparent;
+    display: flexbox;
+    justify-content:center;
+
+}
+/* cateorgy */
+.jack{
+    background-image: url(./assets/peakpx\ \(1\).jpg);
+    background-repeat: round;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    clear: left;
+}
